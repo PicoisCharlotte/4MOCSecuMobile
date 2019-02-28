@@ -1,0 +1,31 @@
+
+=====================
+[+] SMS messages dump
+=====================
+
+Date: 2019-01-14 16:52:36 +0100
+OS: Android 4.4.2 - Linux 3.4.67-01422-gd3ffcc7-dirty (armv7l)
+Remote IP: 10.33.253.2
+Remote Port: 43834
+
+#1
+Type	: Outgoing
+Date	: 2019-01-14 16:52:31
+Address	: 443-444-22
+Status	: NOT_RECEIVED
+Message	: Salut ça va?
+
+#2
+Type	: Outgoing
+Date	: 2019-01-14 16:47:24
+Address	: 445-226-33
+Status	: NOT_RECEIVED
+Message	: How are you today?
+
+#3
+Type	: Outgoing
+Date	: 2019-01-14 16:46:52
+Address	: 888-441-22
+Status	: NOT_RECEIVED
+Message	: Hello world
+
