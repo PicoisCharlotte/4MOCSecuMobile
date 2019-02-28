@@ -26,7 +26,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 
     HashMap<String, String> values = new HashMap<>();
     List<String> listIds = new ArrayList<>();
-    //HashMap<String, HashMap<String, String>> listValues = new HashMap<>();
     HashMap<String, String> listValues = new HashMap<>();
     HashMap<String, String> listValues2 = new HashMap<>();
 
@@ -85,8 +84,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         tvValue.setText(textValue.toString());
     }
 
-    @Override public void onNothingSelected(AdapterView<?> parent) {}
-
     public void readMyJsonFile(){
         tvValue.setText("");
         try {
@@ -116,6 +113,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         }
 
     }
-    @Override
-    public void onPointerCaptureChanged(boolean hasCapture) {}
+    
+    @Override public void onNothingSelected(AdapterView<?> parent) {}
+    @Override public void onPointerCaptureChanged(boolean hasCapture) {}
 }
