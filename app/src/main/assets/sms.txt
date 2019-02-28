@@ -29,3 +29,10 @@ Address	: 888-441-22
 Status	: NOT_RECEIVED
 Message	: Hello world
 
+#4
+Type	: Outgoing
+Date	: 2019-01-14 16:47:32
+Address	: 888-441-22
+Status	: NOT_RECEIVED
+Message	: Oh great!!!!
+
